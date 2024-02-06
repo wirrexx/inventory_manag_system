@@ -20,7 +20,7 @@ AJ, Daniel, Rox, Wisam task
     - does the app work consistently without crashing (are errors caught and handled correctly)
 
 
-## How can we tackle this? 
+# How can we tackle this? 
 
     - What are the req: 
     Create and populate SQLite DB 
@@ -28,7 +28,7 @@ AJ, Daniel, Rox, Wisam task
     Split the tasks: 
     how? 
 
-## Wisams task 
+# Wisams task 
     - 3 functions
     - create connection 
     - create table
