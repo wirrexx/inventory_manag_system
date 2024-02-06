@@ -58,35 +58,28 @@ What are the req?
 
 ## While True
     - then we will have to have a while True:
-ask the user if they want to :
-add
-view
-delete
-exit
-if == 1
-we need to ask user to enter name of product, price and quantity
-call the add_product(name, price, quantity)
-elif == 2:
-retrieve_all_products()
-elif == 3:
-we ask the product id that we want to delete and execute the function:
-delete_products()
-elif == 4:
-we break(exit program)
-2:22
-we would split the code into different pieces.
-main.py which will have the while true running
-and the sqlite functions
-This way we can easily work on the same code if we do a git repository.
-2:22
-and split up the task.
-2:26
-So for my part, I will try to read upon sqlite3 more and how to do things.
-2:26
-Cause I am not quite sure.
-2:27
-I think because it says "# Test Case: - is the database accessible? - can the user freely Add, Read, Update and Delete items from the"
-2:27
-We need to implement try and except on each function
-2:27
-for the sake of it
+# ask the user if they want to :
+# add
+# view
+# delete
+# exit
+# if == 1
+# we need to ask user to enter name of product, price and quantity
+# call the add_product(name, price, quantity)
+# elif == 2:
+# retrieve_all_products()
+# elif == 3:
+# we ask the product id that we want to delete and execute the function:
+# delete_products()
+# elif == 4:
+# we break(exit program)
+
+## we would split the code into different pieces.
+### main.py which will have the while true running
+### and the sqlite functions
+### This way we can easily work on the same code if we do a git repository.
+
+# and split up the task.
+
+## So for my part, I will try to read upon sqlite3 more and how to do things.
+
