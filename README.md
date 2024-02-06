@@ -36,43 +36,43 @@ AJ, Daniel, Rox, Wisam task
 
 # So here's my take on it.
 What are the req?
-    -SQLite3
-    -Add
-    -Retrieve
-    -Update
-    -Remove
-    -Design the database scheme
-    -How do we implement the operations?
-    -functions with parameters.
+    - SQLite3
+    - Add
+    - Retrieve
+    - Update
+    - Remove
+    - Design the database scheme
+    - How do we implement the operations?
+    - functions with parameters.
 
-# func for create_connection(db_file):
-# This this connect to the sqlite3.connect(db_file)
-# func create_table():
-# this will execute ('''CREATE TABLE IF NOT EXISTS...)
-# func add_product(conn, name, price, quantity):
-# this will execute(f'''INSERT INTO products({name}, {price}, {quantity})
-# func retrieve_all_prodcuts():
-# this will fetchall() in a for loop
-# func delete_products(product_id):
-# this will execute (f'''DELETE FROM products WHERE ID  = {product_id}''') commit()
+    - func for create_connection(db_file):
+    - This this connect to the sqlite3.connect(db_file)
+    - func create_table():
+    - this will execute ('''CREATE TABLE IF NOT EXISTS...)
+    - func add_product(conn, name, price, quantity):
+    - this will execute(f'''INSERT INTO products({name}, {price}, {quantity})
+    - func retrieve_all_prodcuts():
+    - this will fetchall() in a for loop
+    - func delete_products(product_id):
+    - this will execute (f'''DELETE FROM products WHERE ID  = {product_id}''') commit()
 
 ## While True
     - then we will have to have a while True:
-# ask the user if they want to :
-# add
-# view
-# delete
-# exit
-# if == 1
-# we need to ask user to enter name of product, price and quantity
-# call the add_product(name, price, quantity)
-# elif == 2:
-# retrieve_all_products()
-# elif == 3:
-# we ask the product id that we want to delete and execute the function:
-# delete_products()
-# elif == 4:
-# we break(exit program)
+    - ask the user if they want to :
+    - add
+    - view
+    - delete
+    - exit
+    - if == 1
+    - we need to ask user to enter name of product, price and quantity
+    - call the add_product(name, price, quantity)
+    - elif == 2:
+    - retrieve_all_products()
+    - elif == 3:
+    - we ask the product id that we want to delete and execute the function:
+    - delete_products()
+    - elif == 4:
+    - we break(exit program)
 
 ## we would split the code into different pieces.
 ### main.py which will have the while true running
