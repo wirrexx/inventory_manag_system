@@ -26,7 +26,8 @@ def create_table(conn):
     except sqlite3.Error as e:
         print(e)
 
-# W: add_products
+# W: add_products, function to add price name and quantity to a tablet.
+# need cursor, need execute to insert stuff and commit. 
 
 
 
