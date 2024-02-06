@@ -27,7 +27,7 @@ def create_table(conn):
         print(e)
 
 # W: add_products, function to add price name and quantity to a tablet.
-# need cursor, need execute to insert stuff and commit. 
+# need cursor, need execute to insert stuff and commit, how to do this??? . 
 
 
 
