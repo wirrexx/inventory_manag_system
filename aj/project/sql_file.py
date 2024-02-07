@@ -20,7 +20,7 @@ def main():
 
     sql_create_products_table = """
     CREATE TABLE IF NOT EXISTS Products(
-    product_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    product_id INTEGER PRIMARY KEY,
     product_name TEXT NOT NULL,
     quantity INTEGER NOT NULL,
     price REAL NOT NULL
