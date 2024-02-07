@@ -74,10 +74,10 @@ What are the req?
     - elif == 4:
     - we break(exit program)
 
-## we would split the code into different pieces.
-### main.py which will have the while true running
-### and the sqlite functions
-### This way we can easily work on the same code if we do a git repository.
+# we would split the code into different pieces.
+    - main.py which will have the while true running
+    - and the sqlite functions
+    - This way we can easily work on the same code if we do a git repository.
 
 # and split up the task.
 
